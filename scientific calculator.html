@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<link rel="stylesheet" type="text/css" href="scientific.css">
+	<script type="text/javascript" src="scientific.js"></script>
+	<title></title>
+</head>
+<body>
+	<div id="biggest">
+		<h id="nam" style="font-weight: bold;" >CASSIO</h>
+		<p id="logo" style="font-weight: bold;">Kayand&copy;</p>
+		<div id="scren"></div>
+		<div id="buts">
+			<table>
+			<tr><td><button onclick="scientific('exp')" style="width: 50px; height: 41px;">exp</button></td>
+				<td><button onclick="scientific('log')" style="width: 50px; height: 41px;">log</button></td>
+				<td><button onclick="del()" id="clea" style="width: 50px; height: 41px;">del</button></td>
+				<td><button onclick="OnAndOff()" id="keystart" style="width: 50px; height: 41px;">ON</button></td>
+			</tr>
+			
+
+			<tr><td><button onclick="scientific('in')" style="width: 50px; height: 41px;">in</button></td>
+				<td><button onclick="scientific('sin')" style="width: 50px; height: 41px;">sin</button></td>
+				<td><button onclick="scientific('cos')" style="width: 50px; height: 41px;">cos</button></td>
+				<td><button onclick="scientific('tan')" style="width: 50px; height: 41px;">tan</button></td>
+			</tr>
+
+			<tr><td><button onclick="scientific('squarr')" style="width: 50px; height: 41px;">&radic;</button></td>
+				<td><button onclick="scientific('sqr')" style="width: 50px; height: 41px;">x&sup2;</button></td>
+				<td><button onclick="scientific('pi')" style="width: 50px; height: 41px;">&pi;</button></td>
+				<td><button onclick="dele()" style="width: 50px; height: 41px;">CE</button></td>
+			</tr>
+
+			<tr><td><button onclick="b(7)" style="width: 50px; height: 41px;">7</button></td>
+				<td><button onclick="b(8)" style="width: 50px; height: 41px;">8</button></td>
+				<td><button onclick="b(9)" style="width: 50px; height: 41px;">9</button></td>
+				<td><button onclick="operator('+')" id="add" style="width: 50px; height: 41px;">+</button></td>
+			</tr>
+
+			<tr><td><button onclick="b(4)" style="width: 50px; height: 41px;">4</button></td>
+				<td><button onclick="b(5)" style="width: 50px; height: 41px;">5</button></td>
+				<td><button onclick="b(6)" style="width: 50px; height: 41px;">6</button></td>
+				<td><button onclick="operator('-')" id="min" value="sub" style="width: 50px; height: 41px;">&minus;</button></td>
+			</tr>
+
+			<tr><td><button onclick="b(1)" style="width: 50px; height: 41px;">1</button></td>
+				<td><button onclick="b(2)" style="width: 50px; height: 41px;">2</button></td>
+				<td><button onclick="b(3)" style="width: 50px; height: 41px;">3</button></td>
+				<td><button onclick="operator('*')" id="mul" style="width: 50px; height: 41px;">X</button></td>
+			</tr>
+               <tr><td><button onclick="b(0)" style="width: 50px; height: 41px;">0</button></td>
+				<td><button onclick="equal()" style="width: 50px; height: 41px;">=</button></td>
+				<td><button onclick="b('.')" style="width:50px; height: 41px;">.</button></td>
+				<td><button onclick="operator('/')" id="div" style="width: 50px; height: 41px;">/</button></td>
+			</tr>
+
+			
+
+
+			</table>
+
+		</div>
+		
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,45 @@
+#biggest{
+	      width: 250px;
+	      height: 500px;
+	      background-color:#DC4900;
+	      position: absolute;
+	      border-radius: 3px;
+	      margin-left: 100px;
+        }
+
+#scren{
+		width: 220px;
+		height: 100px;
+		background-color:#FFFFFF;
+		position: absolute;
+		margin-top: 35px;
+		margin-left: 10px;
+		border-radius: 4px;
+		font-size: 30px;
+		text-align: right;
+		overflow: hidden;
+
+    }
+
+#buts{
+		width: 220px;
+		height: 320px;
+		position: absolute;
+		background-color:#DC4900;
+		margin-top: 150px;
+		margin-left: 10px;
+		border-radius: 5px;
+
+}
+#nam{
+	position: absolute;
+	padding-left: 15px;
+	padding-top: 10px;
+
+}
+#logo{
+	position: absolute;
+	padding-left: 80px;
+	padding-top: 460px;
+
+}
